@@ -2,7 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 32px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 200px;
+  left: 0;
+  right: 0;
 }
 
 .row {
@@ -15,28 +20,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
   border: 1px solid #85a87d;
   cursor: pointer;
 }
 .oPlayer {
   color: rgb(177, 34, 34);
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
 }
 .xPlayer {
   color: rgb(27, 93, 159);
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .game-over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-top: 32px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .game-over h2 {
   font-size: 24px;
-  margin-bottom: 16px;
+}
+
+.developerSign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 20px; /* Adjust the value as needed */
+  left: 50%;
+  transform: translateX(-50%);
 }
