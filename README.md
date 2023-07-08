@@ -1,18 +1,19 @@
 # Tic Tac Toe Game Documentation
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Components](#components)
-    1. [Game Board Component](#game-board-component)
-    2. [Cell Component](#cell-component)
-6. [Services](#services)
-    1. [Game Service](#game-service)
-7. [Testing](#testing)
-8. [Contributing](#contributing)
-9. [License](#license)
+1. [Introduction](#1-introduction)
+2. [Features](#2-features)
+3. [Installation](#3-installation)
+4. [Usage](#4-usage)
+5. [Components](#5-components)
+    1. [Game Board Component](#51-game-board-component)
+    2. [Cell Component](#52-cell-component)
+6. [Services](#6-services)
+    1. [Game Service](#61-game-service)
+7. [Testing](#7-testing)
+8. [Contributing](#8-contributing)
+9. [License](#9-license)
+
 
 ## 1. Introduction
 The Tic Tac Toe Game is a web-based application developed in Angular. It allows two players to play the classic game of Tic Tac Toe. The game features a responsive game board, player turn indication, win detection, and tie detection.
